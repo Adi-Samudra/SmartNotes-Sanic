@@ -184,7 +184,7 @@ export default function Home() {
         <Quotes prop={Testimonial1} />
       </div>
       <div className=" flex justify-center w-full h-fit py-16 my-8 px-32 sm:px-12 md:px-16">
-        <Image src={"/Video.png"} width={1110} height={652} alt="VidePchr" className="rounded-xl" />
+        <Image src={"/VIdeo.png"} width={1110} height={652} alt="VidePchr" className="rounded-xl" />
       </div>
       <div className="flex w-full h-fit shrink-1 justify-center">
         <Quotes prop={Testimonial1} />
@@ -450,7 +450,7 @@ export default function Home() {
                 </button>
           </div>
           <div className="my-20 mx-32 flex-shrink-0 hidden xl:block">
-            <Image src={"/CTAShapes.png"} width={375} height={375} alt="HeroSection"></Image>
+            <Image src={"/CTAshapes.png"} width={375} height={375} alt="HeroSection"></Image>
           </div>
         </div>
       </div>
