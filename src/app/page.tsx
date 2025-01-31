@@ -148,7 +148,7 @@ export default function Home() {
           <div className="bento-div div1 lg:col-span-2 sm:col-span-1 border-[#017373] border-2 border-dotted  rounded-xl w-fit h-full p-4">
             <Image src={"/thumb-up-fill.png"} width={32} height={32} alt="NoteTaking" className="m-5" />
             <h1 className="font-text text-2xl font-semibold m-5">Cross-Platform Accessibilty</h1>
-            <p className="m-5 font-text text-[#BABABA] text-wrap">Whether you're on your desktop, tablet, or smartphone, SmartNotes is accessible across all devices. Work seamlessly on the go and never miss a beat.</p>
+            <p className="m-5 font-text text-[#BABABA] text-wrap">Whether you are on your desktop, tablet, or smartphone, SmartNotes is accessible across all devices. Work seamlessly on the go and never miss a beat.</p>
           </div>
           <div className="bento-div div2 lg:col-span-2 sm:col-span-1 border-[#017373] border-2 border-dotted  rounded-xl w-fit h-full">
             <Image src={"/global-fill.png"} width={32} height={32} alt="NoteTaking" className="m-5" />
@@ -397,7 +397,7 @@ export default function Home() {
             </span>
           </h1>
           <p className="font-text text-[#737373] pt-6 px-4 sm:px-2 lg:px-8 mx-auto max-w-4xl text-base sm:text-md lg:text-lg">
-            We've compiled a list of the most frequently asked questions about SmartNotes to help you get the information you need. If you have any other questions, feel free to reach out to our support team.
+            We have compiled a list of the most frequently asked questions about SmartNotes to help you get the information you need. If you have any other questions, feel free to reach out to our support team.
           </p>
         </div>
         <div className="w-full h-fit sm:px-8 md:px-16 lg:px-32 flex flex-col justify-center py-16 mx-auto">
