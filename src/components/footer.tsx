@@ -65,11 +65,11 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <div className="bg-[#048C80] text-black flex justify-around items-center py-4 w-full">
+            <div className="bg-[#048C80] text-black flex justify-around xs:justify-center items-center py-4 w-full">
                 <div className="font-text text-sm">
                   <p>@2024 SmartNotes | All rights Reserved. </p>  
                 </div>
-                <div className="flex gap-3">
+                <div className="flex gap-3 xs:gap-1">
                 <Image src={"/FB.png"} width={40} height={40} alt="SocialMedia" className="rounded-full"></Image>
                 <Image src={"/LI.png"} width={40} height={40} alt="SocialMedia" className="rounded-full"></Image>
                 <Image src={"/TW.png"} width={40} height={40} alt="SocialMedia" className="rounded-full"></Image>

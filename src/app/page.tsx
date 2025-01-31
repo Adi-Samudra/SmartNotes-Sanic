@@ -106,7 +106,7 @@ export default function Home() {
 
 
   return (
-    <div className="h-fit px-4 xs:px-0 xs:pl-16 sm:px-6 lg:px-8 bg-black sm:bg-black lg:bg-black border-t-2 border-[#017373] max-w-full">
+    <div className="h-fit px-4 xs:px-0 xs:pl-24 sm:px-6 lg:px-8 bg-black sm:bg-black lg:bg-black border-t-2 border-[#017373] max-w-full">
       <div className="flex flex-col xl:flex-row w-full items-center justify-between bg-black">
       <div className="w-full xl:w-3/5 text-white px-4 sm:px-10 md:px-14 lg:px-32 py-6 sm:py-14 md:py-20 lg:py-32">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-text font-bold leading-tight">

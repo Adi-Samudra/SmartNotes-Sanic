@@ -12,7 +12,7 @@ module.exports = {
   theme: {
   	extend: {
 		screens: {
-			'xs': '375px', // Custom breakpoint for 425px
+			'xs': '320px', // Custom breakpoint for 425px
 			'sm': '640px', // Default sm breakpoint stays at 640px
 			'md': '768px',
 			'lg': '1024px',

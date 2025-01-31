@@ -16,8 +16,8 @@ export default function Header() {
     ]
 
     return (
-        <header className="bg-black w-full h-fit px-20 py-8 sm:px-6 sm:py-4 xs:py-3">
-            <div className="max-w-7xl mx-auto flex justify-between items-center">
+        <header className="bg-black w-full h-fit px-20 py-8 sm:px-6 sm:py-4 xs:py-3 xs:px-28">
+            <div className="max-w-full mx-auto flex justify-between items-center">
                 <div className="flex items-center">
                     <div className="border-[#017373] border-4 rounded-lg fill-cyan-700">
                         <svg
