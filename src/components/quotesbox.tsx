@@ -22,13 +22,13 @@ interface TesitmonialsProp {
 
 export default function Quotes({ prop }: TesitmonialsProp) {
     return (
-        <div className="flex-col w-full h-fit py-12 px-6 sm:px-12 md:px-24 lg:px-52 mx-auto max-w-screen-lg">
-            <Image src={"/singlequote.png"} width={37} height={24} alt="Quotes" />
-            <p className="text-3xl text-white font-semibold text-center mx-4 sm:mx-12">
+        <div className="flex-col w-full h-fit py-12 px-4 sm:px-12 md:px-24 lg:px-52 xs:py-4 xs:px-8 xs:mx-2 mx-auto max-w-screen-lg">
+            <Image src={"/singlequote.png"} width={37} height={24} alt="Quotes" layout="intrinsic"/>
+            <p className="text-3xl xs:text-lg text-white font-semibold text-center mx-4 sm:mx-12 xs:mx-auto">
                 {prop[0]}
             </p>
-            <div className="flex flex-col sm:flex-row gap-8 py-8 justify-center">
-                <p className="text-white font-text font-medium text-lg text-center sm:text-left">
+            <div className="flex flex-col sm:flex-row xs:flex-row gap-8 xs:gap-4 py-8 xs:py-6 justify-center ">
+                <p className="text-white font-text font-medium text-lg text-center sm:text-left xs:text-md">
                     {prop[1]}
                 </p>
                 <p className="font-text text-lg font-medium text-[#737373] text-center sm:text-left">

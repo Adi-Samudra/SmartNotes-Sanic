@@ -11,6 +11,14 @@ module.exports = {
   ],
   theme: {
   	extend: {
+		screens: {
+			'xs': '375px', // Custom breakpoint for 425px
+			'sm': '640px', // Default sm breakpoint stays at 640px
+			'md': '768px',
+			'lg': '1024px',
+			'xl': '1280px',
+			'2xl': '1536px',
+		  },
   		fontFamily: {
   			text: [
   				'DM Sans',

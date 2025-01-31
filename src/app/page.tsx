@@ -106,17 +106,17 @@ export default function Home() {
 
 
   return (
-    <div className="h-fit mx-auto px-4 sm:px-6 lg:px-8 bg-black sm:bg-black lg:bg-black border-t-2 border-[#017373]">
+    <div className="h-fit mx-auto px-4 xs:px-0 sm:px-6 lg:px-8 bg-black sm:bg-black lg:bg-black border-t-2 border-[#017373]">
       <div className="flex w-full h-fit justify-between">
-        <div className="lg:py-32 lg:px-32 md:px-14 md:py-20 sm:px-10 sm:py-14 w-full lg:w-3/5 h-fit overflow-auto text-white ">
-          <h1 className="text-6xl font-text font-bold leading-tight"><span className="bg-gradient-to-tr from-[#017373] to-[#AAD9D1] text-transparent bg-clip-text">Intelligent</span> cloud-based
+        <div className="lg:py-32 lg:px-32 md:px-14 md:py-20 sm:px-10 sm:py-14 xs:px-2 xs:py-6 w-full lg:w-3/5 h-fit text-white ">
+          <h1 className="text-6xl xs:text-2xl font-text font-bold"><span className="bg-gradient-to-tr from-[#017373] to-[#AAD9D1] text-transparent bg-clip-text">Intelligent</span> cloud-based
             <span className="bg-gradient-to-tr from-[#017373] to-[#AAD9D1] text-transparent bg-clip-text "> note-taking </span> and collaboration tool</h1>
           <p className="font-text py-1">Experience the power of smart note-taking and transform the way you work today.</p>
-          <div className="flex w-fit h-fit gap-1 bg-white my-14 rounded-md">
-            <input className=" w-[221px] text-black m-2 px-2 text-md font-text ">
+          <div className="flex w-fit h-fit gap-1 bg-white my-14 xs:my-4 rounded-md">
+            <input className=" sm:w-[221px] xs:w-[60px] text-black m-2 px-2 text-md font-text ">
             </input>
-            <div className="">
-              <button className=" flex items-center gap-2 m-1 py-1 px-4 bg-gradient-to-tr text-black font-semibold font-text from-[#017373] to-[#AAD9D1] rounded-lg">
+            <div className="flex-shrink-1">
+              <button className="justify-self-end flex items-center gap-2 m-1 py-1 px-4 bg-gradient-to-tr text-black font-semibold font-text from-[#017373] to-[#AAD9D1] rounded-lg">
                 Sign up
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="my-2">
                   <rect x="0.5" y="0.5" width="23" height="23" rx="4.5" stroke="#333333" />
@@ -127,55 +127,55 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="my-16 mx-32 flex-shrink-0 hidden xl:block">
-          <Image src={"/AbstractShapes.png"} width={363} height={483} alt="HeroSection"></Image>
+        <div className="my-16 mx-32 xs:my-4 xs:mx-8 flex-shrink-0 hidden xl:block">
+          <Image src={"/AbstractShapes.png"} width={363} height={483} alt="HeroSection" layout="intrinsic"></Image>
         </div>
       </div>
 
       <div className="h-fit w-full justify-self-center overflow-clip">
-        <Image src={"/Logos.png"} width={1440} height={200} alt="Logos" className="overflow-clip" />
+        <Image src={"/Logos.png"} width={1440} height={200} alt="Logos" layout="responsive"/>
       </div>
       <div className="flex w-full h-fit shrink-1 justify-center">
         <Quotes prop={Testimonial1} />
       </div>
-      <div className="flex-cols px-32 justify-items-center">
-        <div className="px-16 text-white">
-          <h1 className="font-text font-semibold xl:text-7xl lg:text-7xl md:text-5xl sm:text-5xl text-center">Discover the Power of <span className="bg-gradient-to-tr from-[#017373] to-[#AAD9D1] text-transparent bg-clip-text">SmartNotes</span></h1>
-          <p className="text-center text-wrap mx-96 lg:mx-40 md:mx-42 sm:mx-4 text-[#BABABA] my-7">SmartNotes is packed with innovative features designed to revolutionize the way you take notes, collaborate with others and stay organized</p>
+      <div className="flex-cols px-32 xs:px-4 sm:px-8 md:px-12 justify-items-center">
+        <div className="px-16 xs:px-8 text-white">
+          <h1 className="font-text font-semibold xl:text-7xl lg:text-7xl md:text-5xl sm:text-5xl xs:text-3xl text-center">Discover the Power of <span className="bg-gradient-to-tr from-[#017373] to-[#AAD9D1] text-transparent bg-clip-text">SmartNotes</span></h1>
+          <p className="text-center text-wrap mx-96 lg:mx-40 md:mx-42 sm:mx-4 xs:mx-4 text-[#BABABA] my-7 xs:my-2 xs:text-sm">SmartNotes is packed with innovative features designed to revolutionize the way you take notes, collaborate with others and stay organized</p>
         </div>
 
-        <div className="px-8 md:px-12 lg:px-18 grid lg:grid-cols-4 lg:grid-rows-2 md:grid-cols-4 md:grid-rows-4 sm:grid-cols-1 sm:grid-rows-4 gap-7 py-24 w-full h-fit text-white">
-          <div className="bento-div div1 lg:col-span-2 sm:col-span-1 border-[#017373] border-2 border-dotted  rounded-xl w-fit h-full p-4">
-            <Image src={"/thumb-up-fill.png"} width={32} height={32} alt="NoteTaking" className="m-5" />
-            <h1 className="font-text text-2xl font-semibold m-5">Cross-Platform Accessibilty</h1>
-            <p className="m-5 font-text text-[#BABABA] text-wrap">Whether you are on your desktop, tablet, or smartphone, SmartNotes is accessible across all devices. Work seamlessly on the go and never miss a beat.</p>
+        <div className="px-8 md:px-12 lg:px-18 grid lg:grid-cols-4 lg:grid-rows-2 md:grid-cols-2 md:grid-rows-4 sm:grid-cols-1 sm:grid-rows-4 gap-7 md:gap-4 sm:gap-2 py-24 xs:py-6 xs:px-14 w-full h-fit text-white">
+          <div className="bento-div div1 lg:col-span-2 sm:col-span-1 md:col-span-1 border-[#017373] border-2 border-dotted  rounded-xl w-fit lg:h-full p-4  min-w-1/8">
+            <Image src={"/thumb-up-fill.png"} width={32} height={32} alt="NoteTaking" className="m-5 xs:m-2" />
+            <h1 className="font-text text-2xl font-semibold m-5 xs:m-3">Cross-Platform Accessibilty</h1>
+            <p className="m-5 xs:m-3 font-text text-[#BABABA] text-wrap">Whether you are on your desktop, tablet, or smartphone, SmartNotes is accessible across all devices. Work seamlessly on the go and never miss a beat.</p>
           </div>
-          <div className="bento-div div2 lg:col-span-2 sm:col-span-1 border-[#017373] border-2 border-dotted  rounded-xl w-fit h-full">
-            <Image src={"/global-fill.png"} width={32} height={32} alt="NoteTaking" className="m-5" />
-            <h1 className="font-text text-2xl font-semibold m-5">Customizable Templates</h1>
-            <p className="m-5 font-text text-[#BABABA] text-wrap">Create custom templates for your recurring tasks or projects to save time and ensure consistency. Tailor SmartNotes to fit your unique workflow and preferences.</p>
+          <div className="bento-div div2 lg:col-span-2 sm:col-span-1 border-[#017373] border-2 border-dotted  rounded-xl w-fit lg:h-full  min-w-1/8">
+            <Image src={"/global-fill.png"} width={32} height={32} alt="NoteTaking" className="m-5 xs:m-3" />
+            <h1 className="font-text text-2xl font-semibold m-5 xs:m-3">Customizable Templates</h1>
+            <p className="m-5 xs:m-3 font-text text-[#BABABA] text-wrap">Create custom templates for your recurring tasks or projects to save time and ensure consistency. Tailor SmartNotes to fit your unique workflow and preferences.</p>
           </div>
-          <div className="bento-div div3 col-span-1 md:col-span-2 lg:col-span-1 row-span-1 border-[#017373] border-2 border-dotted  rounded-xl w-fit h-full">
-            <Image src={"/flag-2-fill.png"} width={32} height={32} alt="NoteTaking" className="m-5" />
-            <h1 className="font-text text-2xl font-semibold m-5">Secure Cloud Storage</h1>
-            <p className="m-5 font-text text-[#BABABA] text-wrap">Rest easy knowing that your notes are securely stored in the cloud. Access your information from any device, anytime, without worrying about losing important data.</p>
+          <div className="bento-div div3 col-span-1 md:col-span-2 lg:col-span-1 row-span-1 border-[#017373] border-2 border-dotted  rounded-xl w-fit lg:h-full  min-w-1/8">
+            <Image src={"/flag-2-fill.png"} width={32} height={32} alt="NoteTaking" className="m-5 xs:m-3" />
+            <h1 className="font-text text-2xl font-semibold m-5 xs:m-3">Secure Cloud Storage</h1>
+            <p className="m-5 xs:m-3 font-text text-[#BABABA] text-wrap">Rest easy knowing that your notes are securely stored in the cloud. Access your information from any device, anytime, without worrying about losing important data.</p>
           </div>
-          <div className="bento-div div4 col-span-1 row-span-1 border-[#017373] border-2 border-dotted  rounded-xl w-fit h-full">
-            <Image src={"/Layer_1.png"} width={32} height={32} alt="NoteTaking" className="m-5" />
-            <h1 className="font-text text-2xl font-semibold m-5">Real-Time Collaboration</h1>
-            <p className="m-5 font-text text-[#BABABA] text-wrap">
+          <div className="bento-div div4 col-span-1 row-span-1 border-[#017373] border-2 border-dotted  rounded-xl w-fit lg:h-full  min-w-1/8">
+            <Image src={"/Layer_1.png"} width={32} height={32} alt="NoteTaking" className="m-5 xs:m-3" />
+            <h1 className="font-text text-2xl font-semibold m-5 xs:m-3">Real-Time Collaboration</h1>
+            <p className="m-5 xs:m-3 font-text text-[#BABABA] text-wrap">
               Collaborate seamlessly with your team members or classmates in real-time on shared notes and projects.</p>
           </div>
-          <div className="bento-div div5 col-span-1 row-span-1 border-[#017373] border-2 border-dotted  rounded-xl w-fit h-full">
-            <Image src={"/hashtag.png"} width={32} height={32} alt="NoteTaking" className="m-5" />
-            <h1 className="font-text text-2xl font-semibold m-5">AI-Powered Organization</h1>
-            <p className="m-5 font-text text-[#BABABA] text-wrap">
+          <div className="bento-div div5 col-span-1 row-span-1 border-[#017373] border-2 border-dotted  rounded-xl w-fit lg:h-full  min-w-1/8">
+            <Image src={"/hashtag.png"} width={32} height={32} alt="NoteTaking" className="m-5 xs:m-3" />
+            <h1 className="font-text text-2xl font-semibold m-5 xs:m-3">AI-Powered Organization</h1>
+            <p className="m-5 xs:m-3 font-text text-[#BABABA] text-wrap">
               Our AI-powered organization feature categorizes and prioritizes your notes, making it easy to find what you need when you need it.</p>
           </div>
-          <div className="bento-div div6 col-span-1 md:col-span-2 lg:col-span-1 row-span-1 border-[#017373] border-2 border-dotted  rounded-xl w-fit h-full">
-            <Image src={"/git-branch-fill.png"} width={32} height={32} alt="NoteTaking" className="m-5" />
-            <h1 className="font-text text-2xl font-semibold m-5">Integrations</h1>
-            <p className="m-5 font-text text-[#BABABA] text-wrap" >
+          <div className="bento-div div6 col-span-1 md:col-span-2 lg:col-span-1 row-span-1 border-[#017373] border-2 border-dotted  rounded-xl w-fit lg:h-full  min-w-1/8">
+            <Image src={"/git-branch-fill.png"} width={32} height={32} alt="NoteTaking" className="m-5 xs:m-3" />
+            <h1 className="font-text text-2xl font-semibold m-5 xs:m-3">Integrations</h1>
+            <p className="m-5 xs:m-3 font-text text-[#BABABA] text-wrap" >
               Connect SmartNotes with your favorite productivity tools like Google Drive, Trello, and Slack. Streamline your workflow by syncing data across platforms and enhancing collaboration.</p>
           </div>
         </div>
@@ -183,7 +183,7 @@ export default function Home() {
       <div className="flex w-full h-fit shrink-1 justify-center">
         <Quotes prop={Testimonial1} />
       </div>
-      <div className=" flex justify-center w-full h-fit py-16 my-8 px-32 sm:px-12 md:px-16">
+      <div className=" flex justify-center w-full h-fit py-16 my-8 px-32 sm:px-12 md:px-16 xs:px-6 xs:py-4">
         <Image src={"/VIdeo.png"} width={1110} height={652} alt="VidePchr" className="rounded-xl" />
       </div>
       <div className="flex w-full h-fit shrink-1 justify-center">
@@ -201,7 +201,7 @@ export default function Home() {
           <p className="font-text font-normal text-[#737373] px-4 sm:px-12 lg:px-24 mx-auto max-w-4xl text-wrap text-base sm:text-lg lg:text-xl">
             With lots of unique blocks, you can easily build a page without coding. Build your next landing page.
           </p>
-          <div className="flex justify-center gap-4 py-12">
+          <div className="flex justify-center gap-4 py-12 xs:py-8">
             <p className="font-text">Monthly</p>
             <Switch />
             <p className="font-text">Yearly</p>
@@ -211,8 +211,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 w-full h-fit justify-evenly py-6 px-24 md:gap-8">
-          <div className="border-[#017373] border-2 rounded-xl w-full h-full p-4 bg-white shrink-0">
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-6 w-full h-fit justify-evenly py-6 px-24 xs:px-12 md:gap-8">
+          <div className="border-[#017373] border-2 rounded-xl w-full h-full p-4 bg-white shrink-0 xs:">
             <div className="flex gap-3 py-3 mx-5 items-center">
               <Image
                 src={"/thumb-up-fill.png"}
@@ -231,7 +231,7 @@ export default function Home() {
             {features1.map((feature, index) => (
               <div
                 key={index}
-                className="feature-item flex gap-3 py-2 justify-start mx-4 items-center"
+                className="feature-item flex gap-3 py-2 justify-start mx-4 xs:ms-2 items-center"
               >
                 <Image
                   src={feature.image}
@@ -245,8 +245,8 @@ export default function Home() {
                 </p>
               </div>
             ))}
-            <div className="py-4 my-6">
-              <div className="flex gap-2 mx-5 justify-center items-center rounded-md px-10 border-[#017373] border-2">
+            <div className="py-4 my-6 xs:my-3">
+              <div className="flex gap-2 mx-5 xs:mx-14 justify-center items-center rounded-md px-10 xs:px-4 border-[#017373] border-2">
                 <button className="text-black font-text my-4">Start Free Trial</button>
                 <svg
                   width="24"
@@ -389,18 +389,18 @@ export default function Home() {
       <div className="flex w-full h-fit shrink-1 justify-center py-6">
         <Quotes prop={Testimonial1} />
       </div>
-      <div className="flex flex-col w-full h-fit justify-center py-10 text-white">
+      <div className="flex flex-col w-full h-fit justify-center py-10 xs:py-4 text-white">
         <div className="text-center px-4 sm:px-8 lg:px-16">
           <h1 className="font-text font-bold text-xl sm:text-3xl lg:text-5xl">
             Frequently Asked
             <span className="bg-gradient-to-tr from-[#017373] to-[#AAD9D1] text-transparent bg-clip-text"> Questions
             </span>
           </h1>
-          <p className="font-text text-[#737373] pt-6 px-4 sm:px-2 lg:px-8 mx-auto max-w-4xl text-base sm:text-md lg:text-lg">
+          <p className="font-text text-[#737373] pt-6 xs:pt-3 px-4 sm:px-2 xs:px-0 lg:px-8 mx-auto max-w-4xl text-base sm:text-md lg:text-lg">
             We have compiled a list of the most frequently asked questions about SmartNotes to help you get the information you need. If you have any other questions, feel free to reach out to our support team.
           </p>
         </div>
-        <div className="w-full h-fit sm:px-8 md:px-16 lg:px-32 flex flex-col justify-center py-16 mx-auto">
+        <div className="w-full h-fit sm:px-8 md:px-16 lg:px-32 flex flex-col justify-center py-16 mx-auto xs:px-4 xs:py-4">
           <Accordion type="multiple">
             <AccordionItem value="1">
               <AccordionTrigger>What is SmartNotes?</AccordionTrigger>
@@ -437,10 +437,10 @@ export default function Home() {
       </div>
       <div className="px-24">
         <div className="flex w-full h-fit justify-between">
-          <div className="lg:py-34 lg:px-24 md:px-8 md:py-20 sm:px-2 sm:py-10 w-full lg:w-3/5 h-fit overflow-auto text-white ">
-            <h1 className="text-6xl font-text font-bold leading-tight"> Unlock the Full Potential of <span className="bg-gradient-to-tr from-[#017373] to-[#AAD9D1] text-transparent bg-clip-text">SmartNotes</span></h1>
+          <div className="lg:py-34 lg:px-24 md:px-8 md:py-20 sm:px-2 sm:py-10 xs:py-6 xs:px-2 w-full lg:w-3/5 h-fit overflow-auto text-white ">
+            <h1 className="text-6xl xs:text-3xl font-text font-bold leading-tight"> Unlock the Full Potential of <span className="bg-gradient-to-tr from-[#017373] to-[#AAD9D1] text-transparent bg-clip-text">SmartNotes</span></h1>
             <p className="font-text py-1 leading-tight">Ready to streamline your workflow and boost your productivity? Start your free trial of SmartNotes today and experience the power of smart note-taking.</p>
-                <button className=" flex items-center gap-2 m-1 py-2 my-8 px-12  bg-gradient-to-tr text-black font-semibold font-text from-[#017373] to-[#AAD9D1] rounded-lg">
+                <button className=" flex items-center gap-2 m-1 py-2 my-8 xs:my-4 px-12 xs:px-6  bg-gradient-to-tr text-black font-semibold font-text from-[#017373] to-[#AAD9D1] rounded-lg">
                   Sign up for Free
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="my-2">
                     <rect x="0.5" y="0.5" width="23" height="23" rx="4.5" stroke="#333333" />

@@ -5,14 +5,14 @@ export default function Footer() {
     return (
         <div>
             <div className="border-[#017373] border-t-2 flex flex-col lg:flex-row w-full h-fit bg-black">
-                <div className=" md:w-full sm:w-full lg:w-2/6 xl:w-2/6 flex flex-col text-white font-text items-start px-32 xl:py-12 lg:py-12 md:py-6 sm:py-6">
+                <div className=" md:w-full sm:w-full lg:w-2/6 xl:w-2/6 flex flex-col text-white font-text items-start px-32 xl:py-12 lg:py-12 md:py-6 sm:py-6 xs:py-4">
                     <div className="flex  gap-1">
                         <svg width="35" height="35" viewBox="0 0 26 26" fill="#017373" xmlns="http://www.w3.org/2000/svg" className="bg-[#017373] rounded-md border-4 border-[#017373]">
                             <path fillRule="evenodd" clipRule="evenodd" d="M14.6425 25.5C15.35 25.5 15.9763 25.5025 16.5737 25.2975C17.17 25.0925 17.665 24.7062 18.2225 24.2725L18.335 24.1838L23.0875 20.4875L23.25 20.3625C24.035 19.7537 24.7337 19.2125 25.1187 18.425C25.5037 17.6375 25.5025 16.7537 25.5 15.76V6.6675C25.5 5.56 25.5 4.605 25.3975 3.84C25.2875 3.02125 25.0387 2.235 24.4013 1.59875C23.7638 0.96125 22.9787 0.7125 22.16 0.6025C21.395 0.5 20.44 0.5 19.3325 0.5H6.6675C5.56 0.5 4.605 0.5 3.84 0.6025C3.02125 0.7125 2.235 0.96125 1.59875 1.59875C0.96125 2.23625 0.7125 3.02125 0.6025 3.84C0.5 4.605 0.5 5.56 0.5 6.6675V19.3325C0.5 20.44 0.5 21.395 0.6025 22.16C0.7125 22.9787 0.96125 23.765 1.59875 24.4013C2.23625 25.0387 3.02125 25.2875 3.84 25.3975C4.605 25.5 5.56 25.5 6.6675 25.5H14.6425ZM20.5 13C20.5 12.6685 20.3683 12.3505 20.1339 12.1161C19.8995 11.8817 19.5815 11.75 19.25 11.75H13.41C12.4938 11.75 11.75 12.4938 11.75 13.41V19.25C11.75 19.5815 11.8817 19.8995 12.1161 20.1339C12.3505 20.3683 12.6685 20.5 13 20.5C13.3315 20.5 13.6495 20.3683 13.8839 20.1339C14.1183 19.8995 14.25 19.5815 14.25 19.25V14.25H19.25C19.5815 14.25 19.8995 14.1183 20.1339 13.8839C20.3683 13.6495 20.5 13.3315 20.5 13Z" fill="#EFECE6" />
                         </svg>
                         <h1 className="align-middle font-bold text-xl">SmartNotes</h1>
                     </div>
-                    <div className="flex w-fit h-fit gap-1 bg-white xl:my-14 lg:my-14 md:my-8 sm:my-4 rounded-md border-[#017373] border-2">
+                    <div className="flex w-fit h-fit gap-1 bg-white xl:my-14 lg:my-14 md:my-8 sm:my-4 xs:my-2 rounded-md border-[#017373] border-2">
                         <input className=" w-[170px] text-black m-2 px-2 text-md font-text ">
                         </input>
                         <div className="">
@@ -28,8 +28,8 @@ export default function Footer() {
                     </div>
 
                 </div>
-                <div className="lg:w-4/6 md:w-full sm:w-full md:px-12 flex sm:flex-col md:flex-col gap-8 justify-evenly text-white font-text lg:py-12 sm:py-4 md:py-8 px-12">
-                    <div className="w-full grid grid-cols-3 md:grid-cols-4 xl:gap-36 lg:gap-36 sm:gap-6 [&_ul]:text-[#737373] [&_ul]:font-light [&_ul]:text-md [&_h1]:text-xl [&_h1]:font-semibold [&_h1]:pb-7 [&_ul]:pb-1">
+                <div className="lg:w-4/6 md:w-full sm:w-full md:px-12 flex sm:flex-col md:flex-col gap-8 xs:gap-6 justify-evenly text-white font-text lg:py-12 sm:py-4 md:py-8 px-12 xs:mx-auto xs:px-4">
+                    <div className="w-full grid grid-cols-3 md:grid-cols-4 xs:grid-rows-2 xs:grid-cols-2 xl:gap-36 lg:gap-36 sm:gap-6 xs:gap-4 [&_ul]:text-[#737373] [&_ul]:font-light [&_ul]:text-md [&_h1]:text-xl [&_h1]:font-semibold [&_h1]:pb-7 xs:[&_h1]:pb-2 [&_ul]:pb-1">
                         <div>
                             <h1>Product</h1>
                             <ul>About</ul>
@@ -65,7 +65,7 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <div className="bg-[#048C80] text-black flex justify-around items-center py-4">
+            <div className="bg-[#048C80] text-black flex justify-around items-center py-4 w-full">
                 <div className="font-text text-sm">
                   <p>@2024 SmartNotes | All rights Reserved. </p>  
                 </div>
